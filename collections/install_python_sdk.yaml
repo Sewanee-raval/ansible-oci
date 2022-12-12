@@ -1,9 +1,10 @@
 ---
 - name: Install python sdk
- collections:
-    - oracle.oci
-  hosts: localhost
+  collections:
+          - oracle.oci
+  hosts: all
   tasks:
-  - name: Installing oci python library using Ansible pip module
-    pip:
-      name: oci
+          - name: Installing oci python library using Ansible pip module
+            pip:
+                    name: oci
+
