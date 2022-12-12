@@ -7,4 +7,5 @@
           - name: Installing oci python library using Ansible pip module
             pip:
                     name: oci
+                    state: latest
 
