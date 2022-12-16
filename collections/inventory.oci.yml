@@ -1,3 +1,9 @@
+---
 plugin: oracle.oci.oci
-regions: all
-fetch_db_hosts: true
+
+regions:
+  - us-ashburn-1
+
+hostname_format_preferences:
+  - "public_ip"
+  - "private_ip"
